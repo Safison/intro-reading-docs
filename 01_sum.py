@@ -2,6 +2,7 @@ from test_api.checks import run_test, format_err_msg
 
 
 def calculate_price_percentage(percentage_changes):
+    return sum(percentage_changes) + 100
     pass
 
 
